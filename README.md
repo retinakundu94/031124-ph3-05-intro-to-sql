@@ -16,6 +16,23 @@ While you're encouraged to code along with this lecture, it'll be more important
 
 - Delete rows or a row in a table
 
+## Getting Started
+
+First please download the sqlite3 utility if you haven't already. 
+
+Mac:
+```zsh
+brew install sqlite
+```
+
+Ubuntu:
+```bash
+sudo apt install sqlite3
+```
+
+Next clone this repository. You'll be able to open it in sqlite3 with `sqlite3 main.db`.
+
+
 ## Exercises
 
 1. Create a new table `cats` with these attributes: `name`, `age`, `cuteness`. You determine the data types. You'll also need an additional column. 
