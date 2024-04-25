@@ -16,6 +16,8 @@ While you're encouraged to code along with this lecture, it'll be more important
 
 - Delete rows or a row in a table
 
+- Ordering rows
+
 ## Getting Started
 
 First please download the sqlite3 utility if you haven't already. 
@@ -35,7 +37,7 @@ Next clone this repository. You'll be able to open it in sqlite3 with `sqlite3 m
 
 ## Exercises
 
-1. Create a new table `cats` with these attributes: `name`, `age`, `cuteness`. You determine the data types. You'll also need an additional column. 
+1. Create a new table `cats` with these attributes: `name`, `age`, `cuteness`. You determine the data types. You'll also need one more required column.
 *Hint: what is always a required column for our databases?*
 
 2. Within the table insert three cats of your choice.
@@ -46,4 +48,6 @@ Next clone this repository. You'll be able to open it in sqlite3 with `sqlite3 m
 
 5. Delete the last cat from the database.
 
-6. BONUS: Use an aggregate query to get the average age for all cats. You'll have to look up how to do this.
+6. When reading the table, order the cats by age in ascending order.
+
+7. BONUS: Use an aggregate query to get the average age for all cats. You'll have to look up how to do this.
